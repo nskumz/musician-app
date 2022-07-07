@@ -9,6 +9,6 @@ COPY . /usr/src/app
 # Install our packages
 RUN npm install
 #Expose our application port
-EXPOSE 3001
+EXPOSE 8080
 # Set start command
 CMD [ "npm", "start" ]
